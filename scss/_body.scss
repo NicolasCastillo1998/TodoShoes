@@ -1,50 +1,32 @@
 /*--------MAIN--------*/
 
-.nc-main{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --clr-main: #DC2F2F;
+    --clr-blanco: #fff;
+    --clr-gris: #363636;
+    --clr-negro: #000;
 }
 
-.zapas-main{
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
-.nc-zapas{
-    background-color: #DC2F2F;
-    padding: 9px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    width: 270px;
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+    margin: 0;
+    padding 0;
 }
 
-.af-img{
-    width: 270px;
+ul{
+    list-style: none;
 }
 
-.boton{
-    padding: 5px 10px;
-    margin: 5px;
-    border-color: transparent;
-    border-radius: 10px;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-}
-
-.boton:hover{
-    background-color: #b4b1b1;
+a {
+    text-decoration: none;
 }
 
 /*--------FIN MAIN--------*/
