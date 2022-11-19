@@ -1,53 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-a, a:active{
-    text-decoration: none;
-}
-
 /*--------HEADEAR--------*/
 
-body{
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Roboto', sans-serif;
-}
-
-.nc-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #DC2F2F;
-    flex-direction: row;
-    padding: 15px;
-}
-
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo p{
-    margin: 10px;
-}
-
-.nc-ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-}
-
-.nc-ul li{
-    margin: 10px;
-}
-
-.p-header{
-    color: #363636;
-    font-weight: 700;
+.logo {
+    font-weight: 400;
+    font-size: 1.3rem;
 }
 
 /*--------FIN HEADEAR--------*/
