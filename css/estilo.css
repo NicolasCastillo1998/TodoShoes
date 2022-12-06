@@ -246,3 +246,11 @@ main {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
+
+/*-----CARRITO-----*/
+
+.oferta {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: var(--clr-main);
+}
